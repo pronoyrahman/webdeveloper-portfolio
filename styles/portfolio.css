@@ -174,7 +174,32 @@ resume-container hr{
 }
 footer{
     display: flex;
+    gap: 100px;
     background-color: #fff8f3;
     padding: 130px 200px;
-    margin-top: 100px;
+    margin-top: -20px;
+}
+.footer-colum{
+    width: 50%;
+}
+.section-title{
+    font-size: 33px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 19px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: white;
+    border: 0;
+    width: 100%;
+}
+.social-links a{
+    margin-right: 75px;
+}
+.section-description{
+    text-align:justify;
 }
