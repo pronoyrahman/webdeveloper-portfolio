@@ -81,14 +81,18 @@ nav a {
 }
 
 /* main section stylee*/
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
 
 
 /* about section*/
 .about{
-    padding: 150px;
+    padding: 130px;
     border-radius: 10px;
     background: #ebdccd;
-    margin: 130px;
+    margin: 100px;
 }
 .section-title{
     color: #181818;
@@ -99,4 +103,11 @@ nav a {
 .section-description{
     text-align: center;
     font-size: 20px;
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
 }
